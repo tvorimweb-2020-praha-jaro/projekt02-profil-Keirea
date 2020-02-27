@@ -11,9 +11,52 @@ html { box-sizing: border-box; }
  portfolio  #e74c3c
  facebook   #3b5998
  twitter    #1da1f2
+ font-family: 'Montserrat', ;
+ font-family: 'Source Sans Pro', ;
 */
 
 
 body {
+    position: relative;
     background-color: #bdc3c7;
+    margin: 20px 10%;
+    
 }
+
+.profil {
+    width: 250px;
+    background-color: #31363b;
+    align-content: center;
+    box-shadow: 2px 4px 10px #31363b;
+}
+
+.foto {
+    width: 250px;
+}
+
+.logo {
+    position: absolute;
+    left: 175px;
+    top: 140px;
+    background-color:#b92e81;
+    border-radius: 50%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.55);
+}
+
+.obsah {
+    padding: 10px 20px;
+}
+
+h1 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 25px;
+    /* font-weight: semibold; */
+}
+
+p {
+    color: #bdc3c7;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+}
+
