@@ -17,7 +17,7 @@ html { box-sizing: border-box; }
 
 
 body {
-    position: relative;
+          
     background-color: #bdc3c7;
     margin: 20px 10%;
     
@@ -25,8 +25,8 @@ body {
 
 .profil {
     width: 250px;
+    position: relative;
     background-color: #31363b;
-    align-content: center;
     box-shadow: 2px 4px 10px #31363b;
 }
 
@@ -50,8 +50,7 @@ body {
 h1 {
     color: white;
     font-family: Montserrat;
-    font-size: 25px;
-    /* font-weight: semibold; */
+    font-size: 24px;
 }
 
 p {
@@ -59,4 +58,56 @@ p {
     font-family: Source Sans Pro;
     font-size: 14px;
 }
+
+.odkazy {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+	padding: 0;
+    white-space: nowrap;
+    border-top: 0.5px solid #bdc3c75d;
+}
+
+.odkazy li {
+    border-top: 0.5px solid #bdc3c75d;
+    align-content: center;
+}
+
+.portfolio {
+    text-align: center;
+    display: inline;
+    
+}
+
+.facebook, .twitter {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.twitter {
+    text-align: center;
+    border-left: 0.5px solid #bdc3c75d;
+}
+
+
+
+.odkazy a {
+	display: block;
+	padding: 10px 25px;
+	color: #bdc3c7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.portfolio a:hover {
+	background-color: #e74c3c;
+}
+.facebook a:hover {
+	background-color: #3b5998;
+}
+.twitter a:hover {
+	background-color: #1da1f2;
+}
+
 
