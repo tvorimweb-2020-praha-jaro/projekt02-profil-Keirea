@@ -64,8 +64,8 @@ p {
     text-transform: uppercase;
     font-size: 14px;
     margin: 0;
-	padding: 0;
-    white-space: nowrap;
+    padding: 0;
+    display: inline-block;
     border-top: 0.5px solid #bdc3c75d;
 }
 
@@ -76,13 +76,15 @@ p {
 
 .portfolio {
     text-align: center;
-    display: inline;
+    /* display: inline; */
+    width: 100%;
     
 }
 
 .facebook, .twitter {
     display: inline-block;
-    flex-wrap: wrap;
+    text-align: center;
+    width: 50%;
 }
 
 .twitter {
@@ -101,13 +103,16 @@ p {
 }
 
 .portfolio a:hover {
-	background-color: #e74c3c;
+    background-color: #e74c3c;
+    color: white;
 }
 .facebook a:hover {
-	background-color: #3b5998;
+    background-color: #3b5998;
+    color: white;
 }
 .twitter a:hover {
-	background-color: #1da1f2;
+    background-color: #1da1f2;
+    color: white;
 }
 
 
