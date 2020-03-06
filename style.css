@@ -76,7 +76,7 @@ p {
 
 .portfolio {
     text-align: center;
-    /* display: inline; */
+    display: inline-block;
     width: 100%;
     
 }
